@@ -22,22 +22,19 @@ A step by step series of examples that tell you how to get a development env run
 First move to some directory and run these commands.
 
 ```
-git clone 
+git clone https://github.com/SDISON/Dems
+virtualenv venv
 ```
 ![alt text](https://github.com/SDISON/Dems/blob/master/img/01.png)
 ```
-virtualenv venv
-```
-![alt text](http://url/to/img.png)
-```
 source venv/bin/activate
 ```
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/SDISON/Dems/blob/master/img/02.png)
 ```
 cd dems
 python manage.py migrate
 ```
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/SDISON/Dems/blob/master/img/04.png)
 ```
 python manage.py makemigrations login
 python manage.py migrate login
@@ -57,7 +54,7 @@ And run this command to run django server
 ```
 python manage.py runserver
 ```
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/SDISON/Dems/blob/master/img/06.png)
 
 For checking details regrading your table view admin page(127.0.0.1/admin).
 
@@ -67,7 +64,7 @@ To make admin account follow these steps and enter valid credentials.
 python manage.py createsuperuser
 ```
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/SDISON/Dems/blob/master/img/05.png)
 
 
 ## Built With
