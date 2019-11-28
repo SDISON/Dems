@@ -24,7 +24,7 @@ First move to some directory and run these commands.
 ```
 git clone 
 ```
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/SDISON/Dems/blob/master/img/01.png)
 ```
 virtualenv venv
 ```
